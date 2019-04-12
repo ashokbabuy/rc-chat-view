@@ -8,7 +8,7 @@ import Message from './Message';
 import { messageArrayType } from '../../types';
 
 import '../../styles/messages/messageList.css';
-import TypingIndicator from './TypingIndicator';
+import TypingIndicator from '../Messages/TypingIndicator';
 
 class MessageList extends Component {
     componentDidUpdate() {

@@ -5,8 +5,8 @@ import moment from 'moment';
 
 import AnimateHeight from 'react-animate-height';
 
-import TextMessage from './TextMessage';
-import EmojiMessage from './EmojiMessage';
+import TextMessage from '../Messages/TextMessage'
+import EmojiMessage from '../Messages/EmojiMessage';
 
 import '../../styles/messages/message.css';
 
