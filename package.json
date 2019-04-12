@@ -11,6 +11,7 @@
         "build": "webpack  --config webpack.prod.js",
         "deploy": "npx gh-pages -d demo/dist -b gh-pages",
         "publish-demo": "npm run build && npm run deploy"
+        "postinstall": "cd node_modules/rc-chat-view/ && npm install && npm run build"
     },
     "repository": {
         "type": "git",
